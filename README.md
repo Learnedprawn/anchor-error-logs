@@ -1,6 +1,6 @@
 # anchor-error-logs
 
-1.            Error: Signature verification failed.
+1.  Error: Signature verification failed.
     Missing signature for public key [`Hn74VuTHoWGDYCTW8HUAHoN3t8kvBPcZSwe7qMv1YY5v`].
     at Transaction.serialize (node_modules/@solana/web3.js/src/transaction/legacy.ts:828:15)
     at AnchorProvider.sendAndConfirm (node_modules/@coral-xyz/anchor/src/provider.ts:164:22)
@@ -9,7 +9,7 @@
 
 Meaning: Missing signers account in the test
 
-2.       Simulation failed.
+2.  Simulation failed.
     Message: Transaction simulation failed: Error processing Instruction 0: Cross-program invocation with unauthorized signer or writable account.
     Logs:
     [
