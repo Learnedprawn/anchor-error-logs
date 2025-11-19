@@ -24,9 +24,10 @@ Meaning:
 a) Missing mut in a mutable account
 b) Incorrect seeds passed in for a PDA signer account
 
-3.        Simulation failed.
+3.          Simulation failed.
     Message: Transaction simulation failed: This transaction has already been processed.
     Logs:
     [].
 
 Meaning: A similar signature instruction has been called in the same block and to avoid double spending it is being failed.
+solution: Add a await and promise to allow the next blockhash or add a small lamports transfer instruction to differentitate.
